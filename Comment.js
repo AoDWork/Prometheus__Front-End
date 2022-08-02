@@ -1042,6 +1042,9 @@
         W3Schools: HTML Semantic Elements
         https://www.w3schools.com/html/html5_semantic_elements.asp
 
+        На заверщение недели про ХТМЛ 
+        HTML Style Guide: https://data-flair.training/blogs/html-style-guide/
+
 */}
 
 {/*    ====    ПРАКТИКА (1.4.15)     ====
