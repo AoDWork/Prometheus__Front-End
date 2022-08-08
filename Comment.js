@@ -2491,7 +2491,7 @@
         распространения -0.4rem - размытие, #777 - светленький цвет. В карточке также прописали плавность обоим эффектам.
 
         .card {
-            transition: box-shadow 0.25s transform 0.25s;
+            transition: box-shadow 0.25s, transform 0.25s;
         }
 
         .card:hover {
