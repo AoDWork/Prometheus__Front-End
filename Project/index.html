@@ -14,8 +14,8 @@
             <h1 class="header__title">КІНОЗАЛ</h1>
         </header>
 
-        <nav class="sort">
-            <div class="burger">
+        <nav class="sort" id="sort">
+            <div class="burger" onclick="toggleMobileMenu()">
                 <div class="burger__bar"></div>
                 <div class="burger__bar"></div>
                 <div class="burger__bar"></div>
@@ -78,5 +78,13 @@
             <p>Футер</p>
         </footer>
     </div>
+    <script>
+        const nav = document.getElementById("sort");
+
+        function toggleMobileMenu() {
+            nav.classList.toggle('open');
+        }
+
+    </script>
 </body>
 </html>
